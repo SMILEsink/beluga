@@ -16,7 +16,8 @@
         android:id="@+id/imageView"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:src="@drawable/my_head_image" />
+        android:src="@drawable/my_head_image"
+        android:contentDescription="@string/are_you_ok"/>
         <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
 
 
@@ -24,13 +25,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="天蝎小子"
+        android:text="@string/scorpion"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="你爱吃龙虾吗？" />
+        android:text="@string/are_you_ok" />
 
 </LinearLayout>
