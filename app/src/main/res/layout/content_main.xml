@@ -13,10 +13,12 @@
     tools:context="com.scorpions.beluga.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="64dp"
-        android:text="欢迎使用天蝎AR应用,点击按钮开始扫描。" />
+        android:text="相机"
+        android:onClick="startCamera"/>
+
 
 </LinearLayout>
