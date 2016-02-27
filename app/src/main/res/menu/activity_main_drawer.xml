@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/device_access_camera"
+            android:icon="@drawable/device_access_storage"
             android:title="主页" />
         <item
             android:id="@+id/nav_camera"
@@ -28,7 +28,7 @@
             android:title="分享" />
         <item
             android:id="@+id/nav_setting"
-            android:icon="@drawable/collections_cloud"
+            android:icon="@drawable/action_settings"
             android:title="设置" />
     </group>
 </menu>
