@@ -15,9 +15,9 @@
             android:icon="@drawable/device_access_video"
             android:title="视频" />
         <item
-            android:id="@+id/nav_synthesis"
+            android:id="@+id/nav_make"
             android:icon="@drawable/social_send_now"
-            android:title="合成" />
+            android:title="制作" />
         <item
             android:id="@+id/nav_collect"
             android:icon="@drawable/rating_important"
