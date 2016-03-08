@@ -4,8 +4,129 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
-    <string name="are_you_ok">Are you OK？</string>
-    <string name="scorpion">Scorpion</string>
+    <string name="action_add">add</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="scorpion">洛欧塞布</string>
+    <string name="title_activity_make">制作</string>
+    <string name="section_format">这是: %1$d</string>
+
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_user">洛欧塞布</string>
+    <string name="large_text">
+       "洛欧塞布 （游戏人物）
+洛欧塞布是魔兽世界团队副本纳克萨玛斯瘟疫区的第三位首领，至于这种瘟疫对当地的动植物究竟产生了怎样的影响，扭曲的沼泽爬行者洛欧塞布就是最好的实例。在植物王国引以为豪的自然再生特性受到瘟疫的扭曲之后，洛欧塞布所召唤的致命孢子会将瘴气迅速蔓延开来，使治疗者的治疗魔法反而会加速生命的枯萎。 洛欧塞布是一头被死灵法师们用作瘟疫试验的真菌怪，在经过改造后，这头可怕的野兽现在能够施放极其可怕的瘟疫，更可以召唤变异孢子来增强力量。
+中文名 洛欧塞布 成    就纳克萨玛斯瘟疫区的第三位首领 性    质 瘟疫试验的真菌怪 身    份 boss
+目录
+1 背景资料
+2 洛欧塞布攻略
+▪ BOSS技能
+▪ 战术安排
+背景资料编辑
+“这就是你说的新发明吗？看样子很有趣。你从那里弄来这个奇怪的家伙？”“我的尊敬的主人，您一定知道西瘟疫之地的哭泣洞窟吧？那里的有着无数的沼泽泥浆怪，有次我去那里找寻新的变异植物，发现那里的泥浆怪，在瘟疫的作用下，也发生了奇特的变异，原本缓慢而平和的它们，在瘟疫毒素的作用下变的敏捷而且残暴，它们互相厮杀，但又永远杀不死对方，于是我就把我刚配制出来的新的瘟疫释放到它们中间。才2天它们就变的更加残暴了并且进化出了阻止对方自我治疗的能力，这个能力是我第一次见到，如果我们的缝合怪也拥有同样的能力，那么我们的军团就将战无不胜！”“哦？真的吗？这到是个好消息，那么你提取出了这个能力了吗？”“抱歉，我的主人，我还没有成功。所以我把它们全部抓了回来，利用各种手段来提取这个能力，可是奇怪的变异又出现了。它们在互相厮杀中释放出了一种特殊的孢子，这个孢子在爆炸后可以给泥浆怪们提供更强的杀伤力，真是有趣，于是我只能暂时放弃了提取它们能力的计划，转而研究它们还能进化出什么能力。”“好像越来越有意思了，希尔盖，继续，也许你的这个玩具真的可以改变我们军团的未来。”“是的，我的主人。当我把融合了恐惧魔王的血液和恶魔术士的血液后合成的新瘟疫给它们注射后，这些家伙又有了新的改变，它们依旧在互相厮杀，也许正是互相的竞争让它们又得到了新的能力，我叫这个能力‘必然的厄运’可怕的暗影伤害覆盖了整个房间，给它们送食物的侍僧只站了1秒就被腐蚀的什么都不剩了，而在这可怕的暗影魔法下，唯一的生存者就是您眼前的这个怪物！”巨大无比的怪兽冲着克尔苏加德咆哮，不断冲撞着魔法结界妄图消灭它眼前的一切活动的物体。“真的非常有趣！希尔盖，我对你的工作非常满意，这个可爱的小家伙就继续由你培养，让它知道谁是它的主人，这样它才会成为我们军团一个伟大的战士。哦对了，它还没有名字吧？就叫它洛欧塞布吧。”“谢谢您，尊敬的主人，不过请恕属下愚昧，洛欧塞布是什么意思？”令活人毛骨悚然的微笑浮现在克尔苏加德的脸上：“蜘蛛王国古老传说中象征末日来临的魔鬼就叫洛欧塞布。明白了这名字的的含义了吗？”
+洛欧塞布攻略编辑
+[1]  BOSS血量：
+10/25人RAID模式：60,135,570/200,220,250
+物理攻击：
+10/25人RAID模式：物理攻击，对坦克造成5000/6000左右物理伤害，根据护甲不同上下波动。
+特殊成就模式：在不打掉任何孢子的情况下击杀洛欧塞布。
+BOSS技能
+第一阶段：
+堕落心灵：死亡光环，房间内所有成员17秒内不享受治疗效果，每20秒释放一次。
+死亡之花：对随机目标释放，目标获得一个Dbuff，每1秒受到200/400点自然伤害，持续6秒。Dbuff消失的时候对该目标造成1200/1500点自然伤害。
+必然的厄运：BOSS对全场所有人员释放一个Dbuff，在10秒后造成4000点暗影伤害。
+召唤孢子：进入战斗每30秒召唤一个可持续90秒的孢子，孢子血量在1500左右，当孢子被击杀以后，孢子近身的5 个人获得一个BF，增加暴击50%，同时不造成任何仇恨。
+在到BOSS房间之前要先通过一个陷阱房，就是把曾经在希尔盖战斗中试用过的陷阱房放到了这里，整条通道很短，所有人迅速前进，眼棱的血很少迅速杀死，把蛆一路带到尽头AOE掉就可以了。主要加好拉蛆职业和被眼棱鞭笞人员的血。
+战术安排
+团队配置：
+10人团队：1坦克 3治疗 6DPS
+25人团队：1坦克 6治疗 18DPS
+在战斗开始之前，要分好每组吃孢子的顺序，这次治疗职业也要跟着吃，把DPS比较高的5个人放在第一组吃最大化DPS，BOSS血量很多，提前结束战斗是很重要的。
+战斗开始以后MT把BOSS定在中间圈靠边一点的位置，所有DPS根据仇恨输出，不要OT。
+洛欧塞布和从前40人的时候最大的变化是治疗策略变了，这回只需要2名治疗职业治疗MT，其他的治疗职业是要负责全团的，这点和原来是有本质区别的。
+这里治疗有很多技巧，通过技能描述可以知道每20秒只有3秒时间是可以享受治疗的，但并不是只有3秒释放治疗 ，治疗职业需要盯住BF根据自身施法时间不同可以调节，还有1秒或者2秒就可以进入享受治疗的时候就可以提前施法，这样当刚进入享受治疗的阶段，法术可以释放完毕，并且还有2-3秒享受治疗的时间，这个时候可以继续治疗。这里切忌不要用HOT治疗，因为一但死亡光环启动，身上有HOT也不能享受治疗，所以这里一定要用直接治疗。
+QS给BOSS上好回蓝祝福，治疗职业在不能治疗的时候也不要闲着，拿起你们手中的武器吧，这场战斗持续时间并不短，做好充分的回蓝准备。
+吃孢子的问题，所有DPS要按组行动，不要独自或者提前杀死孢子，要保证全小队的人员都在孢子附近再击杀，因此小队的人也要及时跟上。
+10人RAID模式，BOSS技能完全一样，由于人员少，要注意好孢子的处理问题。
+参考资料"
+    </string>
+    <string name="title_activity_login">注册</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录/注册</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="error_invalid_email">邮箱格式错误</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">必须要填写</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_share">分享</string>
+
 </resources>

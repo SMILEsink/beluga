@@ -2,33 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/device_access_storage"
             android:title="主页" />
+
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_scan"
             android:icon="@drawable/device_access_camera"
-            android:title="照片" />
-        <item
-            android:id="@+id/nav_video"
-            android:icon="@drawable/device_access_video"
-            android:title="视频" />
+            android:title="扫描" />
+
         <item
             android:id="@+id/nav_make"
             android:icon="@drawable/social_send_now"
             android:title="制作" />
-        <item
-            android:id="@+id/nav_collect"
-            android:icon="@drawable/rating_important"
-            android:title="收藏" />
+
         <item
             android:id="@+id/nav_share"
             android:icon="@drawable/social_share"
             android:title="分享" />
+
         <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/action_settings"
             android:title="设置" />
+
     </group>
 </menu>

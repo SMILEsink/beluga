@@ -13,12 +13,10 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_icon"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:src="@drawable/my_head_image"
-        android:contentDescription="@string/are_you_ok"/>
-        <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+        android:src="@drawable/my_head_image" />
 
 
     <TextView
@@ -26,12 +24,8 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/scorpion"
+        android:textSize="24dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/are_you_ok" />
 
 </LinearLayout>
