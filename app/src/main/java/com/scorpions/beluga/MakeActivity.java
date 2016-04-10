@@ -1,6 +1,10 @@
 package com.scorpions.beluga;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -16,6 +20,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MakeActivity extends AppCompatActivity {
 
@@ -100,6 +107,8 @@ public class MakeActivity extends AppCompatActivity {
          * fragment.
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
+        public Uri imageUri;
+        public Uri videoUri;
 
         public PlaceholderFragment() {
         }
@@ -120,8 +129,42 @@ public class MakeActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_make, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            FloatingActionButton fab = (FloatingActionButton) rootView.findViewById(R.id.fab);
+            fab.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (getArguments().getInt(ARG_SECTION_NUMBER) == 1){
+                        File outputImage = new File(Environment.getExternalStorageDirectory(), "output_image.jpg");
+                        try {
+                            if (outputImage.exists()){
+                                outputImage.delete();
+                            }
+                            outputImage.createNewFile();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        imageUri = Uri.fromFile(outputImage);
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                        startActivityForResult(intent, 1);
+                    }
+                    else if (getArguments().get(ARG_SECTION_NUMBER)==2){
+                        File outputVideo = new File(Environment.getExternalStorageDirectory(), "output_video.mp4");
+                        try {
+                            if (outputVideo.exists()){
+                                outputVideo.delete();
+                            }
+                            outputVideo.createNewFile();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        videoUri = Uri.fromFile(outputVideo);
+                        Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+                        intent.putExtra(MediaStore.EXTRA_OUTPUT, videoUri);
+                        startActivityForResult(intent,2);
+                    }
+                }
+            });
             return rootView;
         }
     }
