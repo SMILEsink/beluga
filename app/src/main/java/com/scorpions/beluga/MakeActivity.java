@@ -18,8 +18,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.File;
 import java.io.IOException;
@@ -63,16 +61,6 @@ public class MakeActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MakeActivity.this, "add new make!", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-
     }
 
 
@@ -129,7 +117,7 @@ public class MakeActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_make, container, false);
-            FloatingActionButton fab = (FloatingActionButton) rootView.findViewById(R.id.fab);
+            FloatingActionButton fab = (FloatingActionButton) rootView.findViewById(R.id.fab_make);
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

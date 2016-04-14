@@ -13,4 +13,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/content_new_l"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
