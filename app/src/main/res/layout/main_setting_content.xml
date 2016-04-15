@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingTop="1dip"
+    android:paddingBottom="1dip">
+
+    <TextView
+
+        android:id="@+id/setting_content"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:gravity="center_vertical"
+        android:textSize="10pt"
+        android:paddingLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/main_setting_bar_bg"
+        android:singleLine="true"/>
+
+</LinearLayout>

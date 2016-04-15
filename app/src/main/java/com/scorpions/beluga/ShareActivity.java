@@ -11,12 +11,17 @@ public class ShareActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_share);
+        //ACTION_SEND，该action表明该intent用于从一个activity发送数据到另外一个activity的，甚至可以是跨进程之间的数据发送。
         Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setType("image/*");
-        intent.putExtra(Intent.EXTRA_SUBJECT,"Share");
+        //指定数据的类型
+        intent.setType("text/plain");
+        //标题
+        String title = (String) getResources().getText(R.string.share_to);
         //设置分享的内容
-        intent.putExtra(Intent.EXTRA_TEXT, "哈喽");
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(Intent.createChooser(intent, getTitle()));
+        intent.putExtra(Intent.EXTRA_TEXT, "链接");
+        Intent chooser = Intent.createChooser(intent, title);
+        startActivity(chooser);
+        finish();
     }
+
 }
