@@ -129,5 +129,6 @@ QS给BOSS上好回蓝祝福，治疗职业在不能治疗的时候也不要闲�
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_share">分享</string>
     <string name="share_to">分享到</string>
+    <string name="toolbar_title_make">制作</string>
 
 </resources>

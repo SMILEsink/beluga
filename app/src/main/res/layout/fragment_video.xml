@@ -11,15 +11,12 @@
         android:src="@drawable/content_new_l"
         android:layout_marginLeft="@dimen/fab_margin"
         android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginBottom="73dp"
+        android:layout_marginBottom="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="52dp" />
-
-
+        android:layout_alignParentEnd="true" />
 
     <VideoView
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="400dp"
         android:id="@+id/cameraVideo"/>
 </RelativeLayout>

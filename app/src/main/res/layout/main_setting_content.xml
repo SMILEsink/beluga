@@ -7,7 +7,6 @@
     android:paddingBottom="1dip">
 
     <TextView
-
         android:id="@+id/setting_content"
         android:layout_width="fill_parent"
         android:layout_height="60dip"
